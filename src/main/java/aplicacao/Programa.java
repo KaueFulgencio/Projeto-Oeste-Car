@@ -17,6 +17,8 @@ import dominio.Categoria;
 import dominio.Carro;
 import dominio.Viagem;
 
+import Controller.ControllerAplication;
+
 public class Programa {
 
 	public static void main(String[] args) {
@@ -174,7 +176,7 @@ public class Programa {
                     adicionarCategoria(scanner);
                     break;
                 case 3:
-                	System.out.print("Digite o nome: ");
+                	System.out.print("Digite o modelo: ");
                     String nome = scanner.nextLine();
                     System.out.print("Digite o preco: ");
                     double preco = scanner.nextDouble();
@@ -269,7 +271,7 @@ public class Programa {
         System.out.println("===== MENU =====");
         System.out.println("1. Adicionar Pagamento");
         System.out.println("2. Adicionar Categoria");
-        System.out.println("3. Adicionar Carro");
+        System.out.println("3. Adicionar Categoria");
         System.out.println("4. Adicionar Motorista");
         System.out.println("5. Adicionar Pessoa");
         System.out.println("9. Sair");
